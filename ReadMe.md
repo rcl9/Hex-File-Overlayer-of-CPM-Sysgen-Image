@@ -6,7 +6,7 @@ This repo provides a useful (and relatively simple) command line utility program
 <img src="/Images/HEX File Overlay Utility for CPM 2.2.jpg" alt="" style="width:50%; height:auto;">
 </div>
 
-Back in the day in the 1980s I and others would normally have done these operations manually using DDT or SID. However, I needed to  excecute the operation endless number of times in my quest to rebuild a modern, bit-level replica of my 1983-era Exidy Sorcerer 52k SYSGEN images. I have seen other similarly minded people do is using a plethora of Python scripts and other methods. However, this utility makes it pretty brain-dead simple to generate the final SYSGEN image in a completely mindless and reliable manner. 
+Back in the day in the 1980s I and others would normally have done these operations manually using DDT or SID. However, I needed to  excecute the operation endless number of times in my quest to rebuild a [modern, bit-level replica of my 1983-era Exidy Sorcerer 52k SYSGEN images](https://github.com/rcl9/Morrow-DJ2D-CPM-22-Recompile-From-Source). I have seen other similarly minded people do is using a plethora of Python scripts and other methods. However, this utility makes it pretty brain-dead simple to generate the final SYSGEN image in a completely mindless and reliable manner. 
 
 ## What Does it Do?
 
@@ -55,3 +55,7 @@ The utility program is presently set up for the offsets used by the Morrow DISK 
 ## Compiling and Linking the Utility Program
 
 The utility is written in CPP and targeted towards the Visual Studio C++ compiler. A simple Makefile is provided. The resulting program runs as a command line executable.
+
+## See Also
+
+[Morrow DISK JOCKEY 2D CP/M 2.2 "SYSGEN" Recompile From Source Files (For Exidy Sorcerer)](https://github.com/rcl9/Morrow-DJ2D-CPM-22-Recompile-From-Source)
