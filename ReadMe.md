@@ -3,7 +3,7 @@
 This repo provides a useful (and relatively simple) command line utility program to overlay Intel HEX files ( the boot code, the CCP, BDOS and/or CBIOS) on top of a pre-existing CP/M 2.2 SYSGEN image file. 
 
 <div style="text-align:center">
-<img src="/Images/HEX File Overlay Utility for CPM 2.2.jpg" alt="" style="width:75%; height:auto;">
+<img src="/Images/HEX File Overlay Utility for CPM 2.2.jpg" alt="" style="width:50%; height:auto;">
 </div>
 
 Back in the day in the 1980s I and others would normally have done these operations manually using DDT or SID. However, I needed to  excecute the operation endless number of times in my quest to rebuild a modern, bit-level replica of my 1983-era Exidy Sorcerer 52k SYSGEN images. I have seen other similarly minded people do is using a plethora of Python scripts and other methods. However, this utility makes it pretty brain-dead simple to generate the final SYSGEN image in a completely mindless and reliable manner. 
@@ -19,7 +19,7 @@ This utility allows you to easily and quickly overlay portions of that binary fi
 The memory layout of the SYSGEN image is as follows:
 
 |Offset from 0100H|Segment Length|Description|
-| :-----: | :---: | :---: |
+| :-----: | :---: | :--- |
 | | |
 |0H| 800H| This is where Movcpm.com and/or Sysgen.com reside (at TPA = 0100H)|
 |0800H|800H| DJ2J cold boot, warm boot and firmware| 
@@ -36,7 +36,7 @@ hex_file_overlay_of_sysgen_image.exe [optional arguments] <input_SysGen_filename
 Where "optional arguments" is any number of the following:
 
 |Argument|Description|
-| :---: | :---: |
+| :---: | :--- |
 | | |
 |-a |Overlay the cold, warm and fireware 26 sectors from 'ABOOT.HEX'|
 |-a|[Cold-boot .hex filename] |
