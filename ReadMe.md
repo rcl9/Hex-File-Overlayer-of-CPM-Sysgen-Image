@@ -41,14 +41,14 @@ Where "optional arguments" is any number of the following:
 | -a       | Overlay the cold, warm and firmware - 16 sectors from 'ABOOT.HEX'                           |
 | -a       | [Cold-boot .hex filename] - Filename override                                                                |
 | -c       | Overlay the CCP from 'ZCCP12.HEX'                                                         |
-| -c       | [CCP .hex filename] - Filename overrid                                                                      |
+| -c       | [CCP .hex filename] - Filename override                                                                      |
 | -d       | Overlay the BDOS from 'BDOS22.HEX'                                                        |
-| -d       | [BDOS .hex filename] - Filename overrid                                                                      |
+| -d       | [BDOS .hex filename] - Filename override                                                                      |
 | -b       | Overlay the CBIOS from 'CBIOS2.HEX'                                                       |
-| -b       | [CBIOS .hex filename] - Filename overrid                                                                    |
+| -b       | [CBIOS .hex filename] - Filename override                                                                    |
 | -p       | This will prevent the first 800H padding bytes from being written out to the SYSGEN image |
 
-Refer to the file [Go.bat](/Src.go.bat) for two execution variations.
+Refer to the file [go.bat](/Src/go.bat) for two execution variations.
 
 ## Controller Specific Offsets
 
