@@ -42,14 +42,10 @@ on a running version of CP/M 2.2 (Yaze-AG in this case).
 #define	TRUE	1
 #define	FALSE	0
 
-// RCL, refer to this file:
-//	I:\1980s_Computer_Disk_Images_And_Docs\Sorcerer - Recompile of DJ2D CPM - Jan 2026\__RCL's random set of collected files\
-//		_RCL - How SysGen works and the memory layout.txt
-//
 // This memory image will be saved out to the first two tracks of the Morrow DJ2D diskette via
-// the sysgen.com program.
+// the Sysgen.com program.
 
-// These are RCL's assumptions about the portions of tracks 0 and 1 used by the cold boot code,
+// These are my assumptions about the portions of tracks 0 and 1 used by the cold boot code,
 // the CCP, BDOS (and the remaining for the CBIOS)
 //
 // According to the docs at the top of CBIOS.ASM there are 16 128-byte sectors dedicated to the
