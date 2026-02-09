@@ -48,7 +48,7 @@ Where "optional arguments" is any number of the following:
 | -b       | [CBIOS .hex filename] - Filename override                                                                    |
 | -p       | This will prevent the first 800H padding bytes from being written out to the SYSGEN image |
 
-Refer to the file [go.bat](/Src/go.bat) for two execution variations.
+Refer to the file [go.bat](/src/go.bat) for two execution variations.
 
 ## Controller Specific Offsets
 
